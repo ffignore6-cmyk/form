@@ -207,7 +207,7 @@
 
       try {
         const { error } = await supabaseClient
-          .from("contacts")
+          .from("form_data")
           .insert([
             {
               name: name,
